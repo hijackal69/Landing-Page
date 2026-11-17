@@ -1,7 +1,8 @@
 body{
     font-family:roboto;
-    display:flex;
-    flex-direction:column;
+   
+    
+
 
 }
 .header, .hero-section, .footer{
@@ -10,29 +11,31 @@ body{
 }
 .header{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
-    padding: 0 20px;
     color: white;
     height: 100px;
-    padding:20px;
+    width:100%;
+  
 }
 .header-logo{
     font-size: 24px;
     color:#F9FAF8;
     font-weight:900;
-    margin-left:60px;
+    margin-left:30px;
 }
 a {
     text-decoration:none;
     color:white;
     padding: 0 10px;
+    margin-right: 50px;
 }
 .hero-section{
     display:flex;
     align-items:center;
     justify-content:space-around;
     height: 350px;
+    width:100%;
 }
 .hero-main{
     font-size: 48px;
@@ -50,15 +53,14 @@ a {
 
 }
 .holder{
-    width: 250px;
-     margin:auto
-
+    width: 400px;
+    margin:auto;
 }
 .text{
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    margin-left:50px;
+    margin-left:100px;
 }
 .button{
     background-color:#3882F6;
@@ -69,23 +71,21 @@ a {
     border-radius: 5px;
     margin-left: 30px;
     margin-top:20px; 
-
 }
 .information{
     display:flex;
     flex-direction:column;
-    justify-content:center;
     font-size:36px;
     color:#1F2937;
     font-weight:900;
     text-align:center;
-    margin:20px;
+    margin:40px;
 }
 
 .card-container{
     display:flex;
     justify-content:space-evenly;
-    margin-top:40px; 
+    margin:40px 0px; 
 }
 
 .card-image{
@@ -96,7 +96,7 @@ a {
 }
 
 .card-text{ 
-   font-size:18px;
+    font-size:18px;
     color:#1F2937;
     margin-top:10px;
     width: 100px;
@@ -104,18 +104,19 @@ a {
     font-style:italic;
 }
 .quote{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        height: 400px;
-        background-color:#E5E7EB;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     height: 400px;
+     background-color:#E5E7EB;
 }
 .quote-text{
-    font-size: 30px;
+    font-size: 24px;
     font-weight:300;
     font-style:italic;
     color:#1F2937;
     margin: 70px;
+    width:fit-content
 }
 .quote-author{
     font-size: 24px;
@@ -124,4 +125,52 @@ a {
     text-align:right;
     margin-right: 25px;
 }
+.cta-box{
+    display: flex;
+    justify-content: center;
+}
+.cta-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color:#3882F6;
+    margin: 50px;
+    border: 5px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width:fit-content;
+}
+.cta-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin: 20px;
+
+}
+.cta-main{
+    font-size: 24px;
+    font-weight:900;
+    color:white;
+}
+.cta-secondary{
+    font-size: 18px;
+    font-weight:300;
+    color:white;
+}
+.cta-button{
+    background-color: #3882F6;
+    color:white;
+    border:solid white;
+    border-radius: 10px;;
+}
+.footer{
+    height:80px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
 
